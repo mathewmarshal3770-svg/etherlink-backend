@@ -2429,7 +2429,7 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', network: 'Etherlink Shadownet Testnet' });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`Network: Etherlink Shadownet Testnet`);
